@@ -1,0 +1,308 @@
+@font-face {
+  font-family: myBombFont;
+  src: url("font/PlaneCrash.ttf");
+}
+
+body {
+  background-color: white;
+  padding: 0px 20%;
+  text-align: center;
+  font-family: myBombFont;
+}
+
+.container {
+  width: 800px;
+}
+
+.header {
+  margin-bottom: -3%;
+  font-size: 60px;
+  word-spacing: 15px;
+  color: black;
+}
+
+.header a:link,
+.header a:visited {
+  color: black;
+}
+
+.footer {
+  padding: 2.5%;
+  font-size: 14px;
+  word-spacing: 5px;
+}
+
+.header:hover {
+  opacity: 0.8;
+}
+
+#bubblemap li {
+  color: white;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+#bubblemap li > div {
+  position: absolute;
+  margin-left: 600px;
+  visibility: hidden;
+  opacity: 0;
+  background: white;
+
+  /* Setting the border-radius property for all Browsers */
+  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari and Chrome */
+  border-radius: 5px; /* Browsers that Support it like Opera */
+
+  /* Setting the box-shadow property for all Browsers */
+  -moz-box-shadow: 0 0 8px gray; /* Firefox */
+  -webkit-box-shadow: 0 0 8px gray; /* Safari and Chrome */
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#272229', Direction=135, Strength=3); /* IE */
+  box-shadow: 0 0 8px gray; /* Browsers that Support it like Opera */
+
+  /* Setting the transition property for all Browsers */
+  -moz-transition: all 0.3s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.3s ease-in-out; /* Safari and Chrome */
+  -o-transition: all 0.3s ease-in-out; /* Opera */
+  transition: all 0.3s ease-in-out; /* Browsers that Support it */
+}
+
+#bubblemap li:hover > div {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 6%;
+
+  /* Setting the transition property for all Browsers */
+  -moz-transition: all 0.4s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.4s ease-in-out; /* Safari and Chrome */
+  -o-transition: all 0.4s ease-in-out; /* Opera */
+  transition: all 0.4s ease-in-out; /* Browsers that Support it */
+}
+
+.contenutocenter {
+  padding: 0px 5%;
+}
+
+.content {
+  border-radius: 25px;
+  -moz-border-radius: 25px; /* Firefox 3.6 and earlier */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+  width: 100%;
+  -moz-box-shadow: 10px 10px 5px gray; /* Firefox 3.6 and earlier */
+  box-shadow: 10px 10px 5px gray;
+  background-color: black;
+  width: 750px;
+  height: 550px;
+
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+iframe,
+iframe[seamless] {
+  border: 0px none transparent;
+}
+
+.index {
+  padding: 15% 0%;
+  background-color: black;
+  overflow: hidden;
+
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+.contenuto {
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+.face {
+  margin-top: -16%;
+}
+
+.face a:link {
+  background-image: url("img/calm.png");
+  width: 450px;
+  height: 450px;
+  display: inline-block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.face a:hover {
+  background-image: url("img/scream.png");
+}
+
+.span {
+  display: inline-block;
+  margin-top: 0%;
+  font-size: 60px;
+  padding: 5%;
+}
+
+.span a:link,
+.span a:visited {
+  color: white;
+}
+
+.green a:hover {
+  color: green;
+}
+
+.yellow a:hover {
+  color: yellow;
+}
+
+.red a:hover {
+  color: red;
+}
+
+.video {
+  margin: -100px 0px;
+}
+
+.link {
+  position: absolute;
+  margin-top: -250px;
+  z-index: 1;
+}
+
+.relax {
+  margin-left: -330px;
+}
+
+.sheep {
+  margin-top: -12%;
+  background-image: url("img/sheep.png");
+  width: 600px;
+  height: 450px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.sea {
+  margin-top: -12%;
+  background-image: url("img/sea.png");
+  width: 600px;
+  height: 450px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.snow {
+  margin-top: -12%;
+  background-image: url("img/snow.png");
+  width: 600px;
+  height: 450px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+#bubblemenu li {
+  display: inline;
+  cursor: pointer;
+  color: gray;
+}
+
+#bubblemenu li > div {
+  width: 110px;
+  position: absolute;
+  margin-left: 155px;
+  padding: 7.5px;
+  line-height: 150%;
+  visibility: hidden;
+  opacity: 0.8;
+  background: white;
+
+  /* Setting the border-radius property for all Browsers */
+  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari and Chrome */
+  border-radius: 5px; /* Browsers that Support it like Opera */
+
+  /* Setting the box-shadow property for all Browsers */
+  -moz-box-shadow: 0 0 8px gray; /* Firefox */
+  -webkit-box-shadow: 0 0 8px gray; /* Safari and Chrome */
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#272229', Direction=135, Strength=3); /* IE */
+  box-shadow: 0 0 8px gray; /* Browsers that Support it like Opera */
+
+  /* Setting the transition property for all Browsers */
+  -moz-transition: all 0.6s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.6s ease-in-out; /* Safari and Chrome */
+  -o-transition: all 0.6s ease-in-out; /* Opera */
+  transition: all 0.6s ease-in-out; /* Browsers that Support it */
+}
+
+#bubblemenu li > div.zanelli {
+  margin-left: 355px;
+}
+
+#bubblemenu li > div.minuti {
+  margin-left: 520px;
+}
+
+#bubblemenu li:hover > div {
+  visibility: visible;
+  margin-top: -85px;
+
+  /* Setting the transition property for all Browsers */
+  -moz-transition: all 0.4s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.4s ease-in-out; /* Safari and Chrome */
+  -o-transition: all 0.4s ease-in-out; /* Opera */
+  transition: all 0.4s ease-in-out; /* Browsers that Support it */
+}
+
+#bubblemenu a:hover {
+  color: black;
+}
